@@ -83,14 +83,16 @@ module.exports = {
         deepBlue: "#172b4d",
 
         primary: {
-          main: "#FDECD0",
-          light: "#FBF1E0",
-          dark: "#FFD186",
+          main: "#003358",
+          light: "#054C80",
+          dark: "#002946",
+          contrastText: "#FFFFFF",
         },
         secondary: {
-          main: "#EC791E",
-          light: "#FF8829",
-          dark: "#AC5510",
+          main: "#004D58",
+          light: "#026E7C",
+          dark: "#003D45",
+          contrastText: "#FFFFFF",
         },
         tertiary: {
           main: "#718463",
