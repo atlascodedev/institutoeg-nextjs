@@ -30,7 +30,7 @@ const Navbar = ({
       </NavbarBase>
       <div
         style={{ top: 0, left: 0 }}
-        className="md:h-24 h-24 2xl:h-28 invisible relative w-full "
+        className="md:h-24 h-20 2xl:h-28 invisible relative w-full "
       ></div>
     </div>
   );

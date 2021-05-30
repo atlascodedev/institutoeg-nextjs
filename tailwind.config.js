@@ -3,6 +3,10 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      screens: {
+        "3xl": "1600px",
+      },
+
       boxShadow: {
         custom: "0px 2px 10px 2px rgba(38, 44, 80, 0.2);",
       },

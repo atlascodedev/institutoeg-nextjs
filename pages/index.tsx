@@ -1,10 +1,12 @@
 import React from "react";
 import Drawer from "../components/Drawer";
+import Hero from "../components/Hero";
 import MainLayout from "../components/Layout/main";
 import scrollIntoView from "../helper/scrollIntoView";
 
 export default function Home() {
   const [drawerOpen, setDrawerOpen] = React.useState<boolean>(false);
+
   const homeRef = React.useRef(null);
   const coursesRef = React.useRef(null);
   const aboutUsRef = React.useRef(null);
@@ -49,7 +51,7 @@ export default function Home() {
           />
         }
       >
-        <div className="h-screen"></div>
+        <Hero imageURL="https://hyximpsy.sirv.com/InstitutoGnosis/paoduro.png?sharpen=5&w=1920&h=1080" />
       </MainLayout>
     </div>
   );
