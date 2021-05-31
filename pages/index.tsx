@@ -51,7 +51,10 @@ export default function Home() {
           />
         }
       >
-        <Hero imageURL="https://hyximpsy.sirv.com/InstitutoGnosis/paoduro.png?sharpen=5&w=1920&h=1080" />
+        <Hero
+          CTAAction={() => console.log("i rather run away")}
+          imageURL="https://hyximpsy.sirv.com/InstitutoGnosis/paoduro.png?sharpen=5&w=1920&h=1080"
+        />
       </MainLayout>
     </div>
   );
