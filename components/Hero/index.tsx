@@ -52,11 +52,11 @@ const Hero = ({ imageURL }: IHero) => {
           <motion.button
             initial="hidden"
             animate={initialTextComplete ? "visible" : "hidden"}
-            transition={{ duration: 0.75 }}
             variants={{
               visible: {
                 opacity: [0, 0.25, 0.5, 1],
                 y: 0,
+                transition: { duration: 0.75 },
               },
               hidden: {
                 opacity: 0,
@@ -65,7 +65,7 @@ const Hero = ({ imageURL }: IHero) => {
             }}
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
-            className="bg-primary-main justify-self-start rounded-md p-2 3xl:text-xl text-sm md:text-base text-white flex justify-center items-center "
+            className="bg-primary-main focus:outline-none justify-self-start rounded-md p-2 3xl:text-xl text-sm md:text-base text-white flex justify-center items-center "
           >
             Saiba mais
           </motion.button>
